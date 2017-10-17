@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.aluno.instaface.SobreActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="121dp"
+        android:text="Meu nome é Luiz Henrique Alves. Meu Email é: henrick20132013@gmail.com. Meu RA é 2014326420. Sou do IFPR - Campus Paranavaí"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="142dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/aas"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</android.support.constraint.ConstraintLayout>
